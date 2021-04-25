@@ -1,0 +1,2 @@
+stacker==1.7.0
+troposphere==2.7.0

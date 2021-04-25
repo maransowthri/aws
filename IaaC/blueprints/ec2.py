@@ -1,0 +1,63 @@
+
+from stacker.blueprints.base import Blueprint
+
+from stacker.blueprints.variables.types import (
+    CFNString
+)
+
+from troposphere import (
+    AWS_REGION,
+    AWSHelperFn,
+    Condition,
+    Equals,
+    If,
+    Output,
+    Ref,
+    Sub,
+    ec2,
+    elasticloadbalancingv2 as alb
+)
+
+class EC2(Blueprint):
+    VARIABLES = {
+        'ImageId': {
+            'type': CFNString,
+            'description': 'ID of the AMI to use as the controller node'
+        },
+        'InstanceType': {
+            'type': CFNString,
+            'description': 'The instance type and size for the controller'
+        },
+    }
+
+    def create_conditions(self):
+        pass
+
+    def create_security_groups(self):
+        pass
+
+    def create_ec2_instances(self):
+        t = self.template
+
+        self.controller_instance = t.add_resource(ec2.Instance(
+            'EC2Instance',
+            ImageId=Ref('ImageId'),
+            InstanceType=Ref('InstanceType'),
+        ))
+
+    def create_target_groups(self):
+        pass
+
+    def create_alb_listener_rules(self):
+        pass
+
+    def create_outputs(self):
+        pass
+
+    def create_template(self):
+        self.create_conditions()
+        self.create_security_groups()
+        self.create_ec2_instances()
+        self.create_target_groups()
+        self.create_alb_listener_rules()
+        self.create_outputs()

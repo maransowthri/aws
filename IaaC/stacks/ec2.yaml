@@ -1,0 +1,13 @@
+namespace: ${namespace}
+
+sys_path: .
+stacker_bucket: cloudformarion-configs-${account}-${region}
+
+stacks:
+  - name: kmaran-ec2
+    class_path: blueprints.ec2.EC2
+    enabled: true
+    variables:
+      Environment: ${namespace}
+      ImageId: ${ImageId}
+      InstanceType: t2.micro
