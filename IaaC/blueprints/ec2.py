@@ -14,6 +14,7 @@ from troposphere import (
     Output,
     Ref,
     Sub,
+    Tag,
     ec2,
     elasticloadbalancingv2 as alb
 )
@@ -28,13 +29,35 @@ class EC2(Blueprint):
             'type': CFNString,
             'description': 'The instance type and size for the controller'
         },
+        'UserData': {
+            'type': AWSHelperFn,
+            'description': 'base64 encoded string of the userdata for the instance',
+            'default': Ref('AWS::NoValue')
+        },
+        'WebServerSgId': {
+            'type': CFNString,
+            'description': 'ID of the security group to connect prometheus instances'
+        },
     }
 
     def create_conditions(self):
         pass
 
     def create_security_groups(self):
-        pass
+        t = self.template
+
+        self.http_sg = t.add_resource(ec2.SecurityGroup(
+            'EC2HTTPSG',
+            GroupDescription='Allow all HTTP requests',
+            SecurityGroupIngress=[
+                ec2.SecurityGroupRule(
+                    CidrIp='0.0.0.0/0',
+                    FromPort='80',
+                    ToPort='80',
+                    IpProtocol='tcp'
+                )
+            ]
+        ))
 
     def create_ec2_instances(self):
         t = self.template
@@ -43,6 +66,11 @@ class EC2(Blueprint):
             'EC2Instance',
             ImageId=Ref('ImageId'),
             InstanceType=Ref('InstanceType'),
+            UserData=self.get_variables()['UserData'],
+            SecurityGroupIds=[self.http_sg.Ref()],
+            Tags=[
+                Tag('Name', 'Web Server'),
+            ]
         ))
 
     def create_target_groups(self):
