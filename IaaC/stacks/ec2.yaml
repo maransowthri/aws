@@ -12,4 +12,3 @@ stacks:
       ImageId: ${ImageId}
       InstanceType: t2.micro
       UserData: ${EC2UserData}
-      VpcId: ${xref StandardVpc::VpcId}

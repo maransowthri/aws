@@ -34,10 +34,6 @@ class EC2(Blueprint):
             'description': 'base64 encoded string of the userdata for the instance',
             'default': Ref('AWS::NoValue')
         },
-        'WebServerSgId': {
-            'type': CFNString,
-            'description': 'ID of the security group to connect prometheus instances'
-        },
     }
 
     def create_conditions(self):

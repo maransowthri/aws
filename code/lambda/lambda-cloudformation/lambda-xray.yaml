@@ -58,7 +58,7 @@ Resources:
           Ref: S3KeyParam
         S3ObjectVersion:
           Ref: S3ObjectVersionParam
-      Runtime: "nodejs12.x"
+      Runtime: "nodejs14.x"
       Timeout: 10
       # Enable XRay
       TracingConfig:
