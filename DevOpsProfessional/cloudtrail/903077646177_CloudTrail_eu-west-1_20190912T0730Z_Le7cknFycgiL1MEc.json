@@ -1,0 +1,1039 @@
+{
+    "Records": [
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-service-scheduler",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-service-scheduler",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5QZWL6EGFO",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:20:54Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:45Z",
+            "eventSource": "elasticloadbalancing.amazonaws.com",
+            "eventName": "DescribeTargetHealth",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "targetGroupArn": "arn:aws:elasticloadbalancing:eu-west-1:903077646177:targetgroup/EC2Co-Defau-Z0OQUMBGZTG9/a452c26b43cd02c0"
+            },
+            "responseElements": null,
+            "requestID": "f4207335-d52e-11e9-b856-e1aa2cf755bb",
+            "eventID": "5f5384c1-cfdd-45c4-a4c8-44d4da2dc648",
+            "eventType": "AwsApiCall",
+            "apiVersion": "2015-12-01",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QUCJAHTKLZ:i-06e91bf508fd3bf9f",
+                "arn": "arn:aws:sts::903077646177:assumed-role/ecsInstanceRole/i-06e91bf508fd3bf9f",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5Q4J22ZQBC",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QUCJAHTKLZ",
+                        "arn": "arn:aws:iam::903077646177:role/ecsInstanceRole",
+                        "accountId": "903077646177",
+                        "userName": "ecsInstanceRole"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T05:02:04Z"
+                    }
+                }
+            },
+            "eventTime": "2019-09-12T07:28:48Z",
+            "eventSource": "ecs.amazonaws.com",
+            "eventName": "SubmitTaskStateChange",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "34.246.189.221",
+            "userAgent": "Amazon ECS Agent - v1.30.0 (02ff320c) (linux) (+http://aws.amazon.com/ecs/)",
+            "requestParameters": {
+                "attachments": [
+                    {
+                        "status": "ATTACHED",
+                        "attachmentArn": "arn:aws:ecs:eu-west-1:903077646177:attachment/77841994-56a1-4e36-a51c-36fc7ff66f80"
+                    }
+                ],
+                "cluster": "demo-ecs-classic",
+                "task": "arn:aws:ecs:eu-west-1:903077646177:task/55fafa75-c9cd-40c7-963d-ff438ced15a3"
+            },
+            "responseElements": {
+                "acknowledgment": "ack"
+            },
+            "requestID": "45223e1c-7b30-4cff-a1ec-59156e028335",
+            "eventID": "78281f46-5ab3-42f1-8fff-faa133be1bed",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-service-scheduler",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-service-scheduler",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5Q42LJ2ZID",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:26:10Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:46Z",
+            "eventSource": "elasticloadbalancing.amazonaws.com",
+            "eventName": "DescribeTargetHealth",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "targetGroupArn": "arn:aws:elasticloadbalancing:eu-west-1:903077646177:targetgroup/ecs-demo-e-demo-service/4e9c594cc9d5411e"
+            },
+            "responseElements": null,
+            "requestID": "f50ef1d9-d52e-11e9-835e-1d48764ddab3",
+            "eventID": "d6a4eafe-686e-4080-ae5b-2fcc7a861f2f",
+            "eventType": "AwsApiCall",
+            "apiVersion": "2015-12-01",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:42Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5QYBI5LY43",
+                    "expiration": "Sep 12, 2019 7:43:41 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJHMEUCIQCiQxBiqueaTqb4pDBKeQKytlBgzB3P5azGKO+1EuPYeQIgH104vVrozgyEbgpXcnpslCh3M54IcmVAZaxKWcvQ9DQq9gII6f//////////ARAAGgw5MDMwNzc2NDYxNzciDK+PHgLW3vWspPgxXirKApjqua0hSylbp6zwMEoRkBl3ixWJewaLR0mYiIZhN/QXJ0JF9719HWlvslJ3pS1i3y4zD5xNIMR/q/Gs90rCyBLa125NIvZwbyUek6SjjtAAb2mAca9NNaBlxntas6pODIGlzGZwoDtauKpU5QMCFqLKkn7WhyD6HhsjboFwO8a/HFWN1MxFeNWqa/AFmXcIxP09NFpQ7PssJEWlgr1CSdnMezCSGOk13Z+iI4qITKCHSEcXFfkiBtfzxw9lNNubfJHsjWXJC360V9adiALJwoKVdz69jxR6Ubef90c9B0Fw7QDr8zTLdqYgWOW7/p/1QE1tao/Gzr6AYkAToI8GjzFFkDPqyUM6WY/uoTuaj66aA7gx4wYTrPtU+IdKmZZzpIQ3KioO2imf6lsszSJd4lW2TZ8njJQyIwmopOy2zzfDKLWWO1IfXebD6jCp5+frBTq0AQQZFg+1HtdYGo4zIeC4YppL7OK0QfC2D4GXEm5cugkRVj4zv3XY8gQ4oSgG/tQwWuDqICos1GDU12vXHai90dqZABlyWs0sx2zDvhweVZO+xIatzy++EhyPfcDCS0MXfjBR0Yw5MoK3ZGQC6cZUkTzSKaAKGmHTIVKY6U7MCNbRvFtWnJjXJY0h+XYZCwPhpjBeC6R29tf6lN9QuHlPz1yAFuxhjBgG9NJXoZ6Yiypx9aM6iA\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "f22edcde-d52e-11e9-9620-6f4902557181",
+            "eventID": "3a2f8bbc-3aee-4189-bdbe-22b7254a30ae",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "38092c3f-6636-4902-8b31-8413af585ad7"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:27:56Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5Q5PG4UEN5",
+                    "expiration": "Sep 12, 2019 7:42:56 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJHMEUCICxw1UzPtZAdKTvm1ux6I+jGNfjHdq4vAwMYqPhk5hYzAiEAravRVKE3ypQbS/PIxGedwc6DrsV/8XXAZpCWIphjNgkq9gII6f//////////ARAAGgw5MDMwNzc2NDYxNzciDP3WMQOWtIU+eT+9YSrKAsHxRMX6n3CFvkM3jRL2Nz5203K1Zlz63A7jY1B2AF5c9BtUmloLLinxjtGqKqd1VPzk5T/YE6pLTS+WS/2RHWCFnDOERiSCTWTn4AyJc8WKFm2/azUFKuhNsrzCJLd6kZUVqliEWBsvU0sUTD6Lu9KNHJjCujj3/xcu0jnMCzevy2Ee+HZ+t7VtdzHpocduDj+dFWikd0yM2NuWrJId3mUh7RkxDVCbanyUehnacyX2q8YlqqnH9NO1ifWm6ZikNxesl/+jcI7UAVK7KTk/wYWhGAqtqibzmk5fdxlMmcoCQ/79weG1jBmL8c1IBlPPlbDFQDJMN2cJeZLRzrsZMjlLi6M8Q00sgmJW12XM0PvVWwtmUMM6pNDbBvfexfzMCGU1IZ30WjX6DESqSaWXAV2kvnXZuaeRA6JXrDUHc4zgCTmIHshwKzvqzzD85ufrBTq0AeQCmIMCPnafhaT3ePor2LMclR215/PvwxzeNRYJmxXffrLMLrGzhfeSlDDVotJ15oabsUE44k2sLV5lj6fUY76rWZTwT2a05M1Mj8rRPiLaN9S+wkNrL5X7UHpF+W8HDa/m9rUoc2ds2saLJX9bXWM2aj9itHPHi6fGVWtUTk7zkKXWIMOvIsewN7y1DStx2PcEXCf3uUcT5nQDmhVvBmPNpASYEbVAcs5QHe5oXLqoXtPcbQ\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "d6f912e7-d52e-11e9-b201-b98cd03059e3",
+            "eventID": "8366a529-d9d4-4589-b56d-e03c02ac5e64",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "e1311918-e09e-45b8-b069-36112b6defe6"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.application-autoscaling.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:53Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.application-autoscaling.amazonaws.com",
+            "userAgent": "ecs.application-autoscaling.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+                "roleSessionName": "AutoScaling-RetrieveCurrentCapacity",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5QXMKQAUIA",
+                    "expiration": "Sep 12, 2019 7:43:53 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJIMEYCIQDn1c92gco2n4FE9FmluoWsr65XS8HPjhAwDU9YMLgdgAIhAJS2wqPJr245KHrLlBJo4m5MhDRsngEA6Z1VGJhbOr/hKrUDCOn//////////wEQABoMOTAzMDc3NjQ2MTc3IgzuTJOtI8d1ACPVkVcqiQNy4+QWWtxFvxV+Os3lpl2mN4/p/rlXr75Jr1DI30K5xtcNxe4yiNSObK5kdfx6sRUDZNZJERhGRQ0Wy4tZGfzd2d1BfKbUTHJiv9UW3DGJyn4hV4VwFifygAK0WAN6Hkr6oFRPro2FX/oJUFSJnzN+EMGyZHdp7Ma0C4z2HUlxHpLtMD5dA2cAkyRI1xh4gZQ+CJyiqOHqRAA+lpNxWuvOxy07V84qNK4Q0Knv5qQJ2Rd/nf8egKOMvkHY3VfYkycaG2EcA66hljLLvqSrZprNI2gtvPCMcQoG8jTWcnI2ft4iayBv4Hv6rlTWHk87PoQBien9CCz4QIsL76PUDt1sIwmtymGbYWv6K9JiPuHIhMC82GQO8KcLVZ3WSNEPj55SAfKerKvAzg5IbtH7K0388Ezom25HCwSGv0EEkzkuAFOrhy6NyJmgswTt5YtRzj4fg33KxoOR3FYwmvav/FNsPH0fjg8uhDUuN6OKT4yZ2FHWyfM/lQ8pRrqSHirLlAV0REVb5b16Gyowtefn6wU6swHDy00FNgUDwN2Fkt6dUOjnkwyvZGftTNdGTL5MYGGjq6877MEU4x4qEbLfhMrbXdOy2JwoqMYE+royiWlNTbsSr+Gy0HLyOTeXMCV8WuW1xxpyEov1IJ0UvVsdQGd4knERo1cpwE7r/Ln9t9oKQG7iu+ZniT9R8Pv2dEyS9m00oz+lY1dJxEdmQWlkndF371dgF3YUdeYMbQ4iN0KSaPdE5VLmo/QAucnjQ7c6vX7ztp0oXA\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTZIZEGUX6:AutoScaling-RetrieveCurrentCapacity",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForApplicationAutoScaling_ECSService/AutoScaling-RetrieveCurrentCapacity"
+                }
+            },
+            "requestID": "f8f7017a-d52e-11e9-b037-e7eabc612c8c",
+            "eventID": "efd0f3d6-e7a0-4d07-9c4d-dc092f002c08",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "1c5e661f-2f86-4beb-a8d4-6893850bf6b5"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTZIZEGUX6:AutoScaling-RetrieveCurrentCapacity",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForApplicationAutoScaling_ECSService/AutoScaling-RetrieveCurrentCapacity",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5QXMKQAUIA",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTZIZEGUX6",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_ECSService",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForApplicationAutoScaling_ECSService"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:28:53Z"
+                    }
+                },
+                "invokedBy": "ecs.application-autoscaling.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:53Z",
+            "eventSource": "ecs.amazonaws.com",
+            "eventName": "DescribeServices",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.application-autoscaling.amazonaws.com",
+            "userAgent": "ecs.application-autoscaling.amazonaws.com",
+            "requestParameters": {
+                "services": [
+                    "demo-service"
+                ],
+                "cluster": "demo-ecs-classic"
+            },
+            "responseElements": null,
+            "requestID": "6a4a9f58-bdc0-4ad8-ac8b-0474a918369c",
+            "eventID": "e25c31c0-59b0-4c82-87d5-5a9a7070cacf",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:17Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5QYMGWDK2M",
+                    "expiration": "Sep 12, 2019 7:43:17 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJIMEYCIQCnId4MhmNPO/jFMOC88V9eTuE0AzkUw3rc4L5A6GK0pQIhAJ1AzePOwx1atPH7RXdyBLyFjGTvlw23esIV+uDoMdjCKvYCCOn//////////wEQABoMOTAzMDc3NjQ2MTc3IgwxTVxoejYEe2eXiusqygKYCIFFj+3GcN676HrqzfmSWhhWLxzvPVEi4//0IpySYENR85fnO3KDY4zZifrwRAu6U0TyYZGEzjQJqPv2o1DbFyu7mOUXogSSN84gthdHkrKQ+ZK+eCbb7gqaCiSVPdu4m6N7caRCkfjtm2Im3WvEt/6A2Nw0NYXQpytfX64bFYwYqWRHJ0tAhlE9oxsUte4Y5Sg8eGxUCqWp7NTUgkYvxQNAvUlKBria5rxqsgn0P54pYj4DwxzWWqIyuYQahpy9B0jzyzXHb2a/ai0T6Q6fO38jtLCZrwwahsN2p0AWaJ9r5tncQ9TmQfZjH8GPN4cXsRj7u/pZO0yfDCkrYi4DksuhjO8NqMDnqUO8TAo2Ce01yfBH9vyNZLEndNqpeT1craUop5jYj9QRFw1oVnfEraqyCWHWHWzak4KxQw6csomr8BZ9JfGrKM8wkefn6wU6swFhwaLeGayVSt3z19hm4XMuoUsfCLDXf/igtrzzXhnQQ+HaSY0K3geG8rNYs0qK5fB2dAsMvwa0YoDFWAqa5UXGQ0MiFMuVMF8iqZ3pPuWPEx3M/Jy7ej8vGCdo7FlL/D9WEVdZtL6XwryrxcJdsGFW0p97sgrI1lNq71gOROO8FEi7PqJcmuqEZw9MI6FS/6OolRvTRwPH32G7RQbdolTT/ygOp3BtglEBsRNcA8Ysqu56Og\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "e36e023f-d52e-11e9-bd88-b9d33f6acb75",
+            "eventID": "4748d53a-0239-404c-b4a5-e301518922d0",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "5ac158eb-b205-4541-b5f2-b07d6190452b"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:11Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5Q5KFOJX4X",
+                    "expiration": "Sep 12, 2019 7:43:11 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJHMEUCIC4qCWJypTCSWLxek9Ug74v92ADsb2pX4k5aVWfVG5QZAiEAi6ODMiBVX8AcUatVrXICc8MGAlxzMUGGRGyOzUBpleIq9gII6f//////////ARAAGgw5MDMwNzc2NDYxNzciDJyBo3uLJJuBszM+jirKAg7tD8em9/a/ukqPf295dZknz+XlIrlYcwLWSg4xl21QNv2AGFid+Y44DWYYcTRGTBf3agy+JZfopvAmJbJ/3rSPU5Rmk4Zr6D5WGuatuEOh3V2p+QsSD0f47PLIX7tXoenBn7sTWqK3LtmMDvO99E7Z1kLAopr2idaNXGWXh2uJk0X5uIkRT3tn1N0jjWwfwCpXia3rEhPIdDs4Pee5Y6oH4H4YbBAsGDtlobVIVi2QWH8J984VZlEWk02+nsik7/sQKeLbbwxT0ms0ckVxKklPEgXRdFOG3FUL4APC7lFAMG86q17gCgByf0lCQJUHWCyyzwNcA1lEKeVGIfzqRE9OTTdLZmehWLbQvndMRjzMpQOu1VB0sRVhlzBFqHC8TfZCcpWdnWgtSe0OylILFOt7TNy583w0Cidy3NVUs6DzAB9O9M+1atOcWjCL5+frBTq0Adr2ZxypwQJloYGEinu+nW9c70OiA/OtHHCI/cZz117Jeovam/UGewDMxhUUQ/TiuB1oTAwTPB7cMhg62Shgtx9O+nKN24pe6rp+N12yZ0UZUSKgmkmaJPpKBbSk+JI9uw+j3cPmdrF9kP82/PmE/+XCMOCasaKNlYc5+2u5PTHcG7IiHyNebGZikj8u/N3DG7mfSWA+y5mUpNYBB8oK3YN33hnhRKojCBDJXFVpJczcCB8QaA\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "dff0256a-d52e-11e9-bd88-b9d33f6acb75",
+            "eventID": "c99919c3-3469-450f-bbd5-433eb5453345",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "6075caf0-a181-442b-bb89-1f08e9558919"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:27:55Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5Q37YI63WW",
+                    "expiration": "Sep 12, 2019 7:42:55 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJHMEUCIQClIrrrpZwZ/iXi9uiyko8IZBuRLc9RsJCHGct9Q/4VaAIgItdx7F88xxkX0eTdHvRoPmj1uj3abBHtFlPlzQ3OqC4q9gII6f//////////ARAAGgw5MDMwNzc2NDYxNzciDJe5VYywCacZfpmApCrKApGSpi6LILCXb1rWmlscDP/ZL4WZ3jHxQ+maG/ClImCt1IXRznisWXqsYk/Dx7Z/XEZbfkaYe0f8UyeuNyHRMKIq3vR3J4YO8O5ctPYgiXQVjHYfssPjwo+HaF88SUv2W6R6xWRqk9bN6OFEux0ZAQI8JllVSf+TkAK0tsiivw1aY0B7nD9TkUNZUc2pN1JUeD4nhVS5IkQYzfZXWtnVOVW7cSwADJ9SCF9EE/gABzJww38Yzq3l5sxl9LiNBnTITlobx6IM/+a15pOmgQHh4E2ja+INAXNog34K5CMz8pVtSpB15IvPpbwZ/1HMnJf7jrsTeFbFWY3PMc+a9X2yT/LvlMCAK6kj9QqtKZciIBIV+pJ8PYVciQSlQhOwwwSl/ANuw/nb8ixGBa2mX32GdYr8vH48Rwcn8WqeNw2RvdC9BIOy77IaUcgu0zD75ufrBTq0AXAc8xA3o5Ib3AKkf7+1oEtM1lNi/4Z/8zXmXtM5NH7bWJ0IdkXWTwB6Ndg6E5Bd3KAFUmbdXkUbI+/X5Dp19Zqo8/e7AQgZY4Brk80VyM0ThlIwgbPN5Rl2uzWCuvBrTCtPi5dF9Uqjf9S64bcizGO3XidS42lZ/2HYBINEBJ3OetyJRpaVnHhtBCqPdgpZKw23Ye3qJ+1HluFxmAArbUW7mMjJutNQv1jE9gQ1RNIil3tR3g\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "d64c7e6c-d52e-11e9-bd88-b9d33f6acb75",
+            "eventID": "a4190530-cc27-48f1-9df5-09f3edbafc83",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "f1e866e0-3532-449b-bd3c-b311ea60a87f"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QRXINOSUW7:55fafa75-c9cd-40c7-963d-ff438ced15a3",
+                "arn": "arn:aws:sts::903077646177:assumed-role/ecsTaskExecutionRole/55fafa75-c9cd-40c7-963d-ff438ced15a3",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5Q5NAC3R7O",
+                "sessionContext": {
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:28:54Z"
+                    },
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QRXINOSUW7",
+                        "arn": "arn:aws:iam::903077646177:role/ecsTaskExecutionRole",
+                        "accountId": "903077646177",
+                        "userName": "ecsTaskExecutionRole"
+                    }
+                }
+            },
+            "eventTime": "2019-09-12T07:28:56Z",
+            "eventSource": "logs.amazonaws.com",
+            "eventName": "CreateLogStream",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "34.246.189.221",
+            "userAgent": "Docker 18.06.1-ce (linux) aws-sdk-go/1.12.66 (go1.10.3; linux; amd64)",
+            "requestParameters": {
+                "logStreamName": "ecs/sample-app/55fafa75-c9cd-40c7-963d-ff438ced15a3",
+                "logGroupName": "/ecs/first-run-task-definition"
+            },
+            "responseElements": null,
+            "requestID": "0afd01c4-62f4-4b3e-807d-e7af34508e37",
+            "eventID": "4ec60692-f504-42cf-9a41-271a51a1708f",
+            "eventType": "AwsApiCall",
+            "apiVersion": "20140328",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QUCJAHTKLZ:i-06e91bf508fd3bf9f",
+                "arn": "arn:aws:sts::903077646177:assumed-role/ecsInstanceRole/i-06e91bf508fd3bf9f",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5Q4J22ZQBC",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QUCJAHTKLZ",
+                        "arn": "arn:aws:iam::903077646177:role/ecsInstanceRole",
+                        "accountId": "903077646177",
+                        "userName": "ecsInstanceRole"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T05:02:04Z"
+                    }
+                }
+            },
+            "eventTime": "2019-09-12T07:28:18Z",
+            "eventSource": "ecs.amazonaws.com",
+            "eventName": "DiscoverPollEndpoint",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "34.246.189.221",
+            "userAgent": "Amazon ECS Agent - v1.30.0 (02ff320c) (linux) (+http://aws.amazon.com/ecs/)",
+            "requestParameters": {
+                "containerInstance": "arn:aws:ecs:eu-west-1:903077646177:container-instance/a9fd90e9-1586-4f15-9e97-2a37bedecf77",
+                "cluster": "demo-ecs-classic"
+            },
+            "responseElements": {
+                "telemetryEndpoint": "https://ecs-t-4.eu-west-1.amazonaws.com/",
+                "endpoint": "https://ecs-a-4.eu-west-1.amazonaws.com/"
+            },
+            "requestID": "53bd1fac-f037-4275-addc-d909c592e1c5",
+            "eventID": "2aea9fbe-97cc-4b58-9236-7d1c1e35fde3",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning",
+                "accountId": "903077646177",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:28:41Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:41Z",
+            "eventSource": "ec2.amazonaws.com",
+            "eventName": "DescribeNetworkInterfaces",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "networkInterfaceIdSet": {
+                    "items": [
+                        {
+                            "networkInterfaceId": "eni-0f7ec6073e1f1f49a"
+                        }
+                    ]
+                },
+                "filterSet": {}
+            },
+            "responseElements": null,
+            "requestID": "2eaf95bb-8590-4f1a-adaa-6cfbab7980d4",
+            "eventID": "9ace264a-1623-4b3b-8510-7f6a02da4959",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-service-scheduler",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-service-scheduler",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5Q42LJ2ZID",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:26:10Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:16Z",
+            "eventSource": "elasticloadbalancing.amazonaws.com",
+            "eventName": "DescribeTargetHealth",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "targetGroupArn": "arn:aws:elasticloadbalancing:eu-west-1:903077646177:targetgroup/ecs-demo-e-demo-service/4e9c594cc9d5411e"
+            },
+            "responseElements": null,
+            "requestID": "e3347b69-d52e-11e9-85f9-c71ac21912b1",
+            "eventID": "3afcea3c-000b-4aeb-b5fa-1403908d11a8",
+            "eventType": "AwsApiCall",
+            "apiVersion": "2015-12-01",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:17Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5QWCGDWPHX",
+                    "expiration": "Sep 12, 2019 7:43:17 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJIMEYCIQDAdHBo5mp8U52uXkFr9zYSME8QxtQINz+XzFI6UJ++TgIhAP3D4IN4vFHIE0Cu+oaOXl86FKq+E+bROHjnpSn3ZvwcKvYCCOn//////////wEQABoMOTAzMDc3NjQ2MTc3Igx/8laXxP1XrvFXKvQqygLW9RoLHQfHU4/XPA5YpwhtsvcDzQGbWcCZ9JxxplRsFr9jOFdHvAhvAKwNCwiGqwjJWKYw+kIlx+hEYIIxPP1m4bRuM+zI3eqr7l5YsAjBeFj6kdaF3Y/WnyCvxZMtuAV0roBSa52mBH+SwXpXlSVvwJoYOxQ4CPytYi81YmJUJk8+nKqQEMGAE4X5NJFIc9ZHlerlsuTWe+ISUyyOr5XOVGUgyzawkoC2ma7DVuZcr2lqfw6TIqhl/L2V9umRK2OhoDQXcVdar4NR0ztXFJFdBZqBxPBufGbB5wXNA8SZy+bLa7ATnOFybGwvGPzJIKBmdgB97AP1dsIajTFRmrfc/QBVg5I5WbwpDVJJXp8tUA793CZHTyfpG7ZojJgu4rgD7oYnUdmUXGzP9SoR3sfPuwQ8UeOkx07B98PRwUtGPvg4XMCiF540Hd0wkefn6wU6swFh3Lp26X9mEtyVdv4hIOjPCHf1r6SEYmQSjN+Dl53so6s0aWAYZwFUwzWQ20iQqvMk5W4LyABC1zp0rI/qwGmOO4HpWz9u+CWS+GFHbhm6O0eI7zxcAUUkTVnmePknZV3B+S2aRi2jRHJ3ukfri6yA7TjaC7c8qpd9s2D7mZJ2ZB8xuhBnAJJ79pIrE8g/Z4A0Xvws+HCsZCJ7AtJ4oTU5sB79PAQYJaWwJvEgJUYAv9albA\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "e3827471-d52e-11e9-ba1f-9fa7bdc0c2b6",
+            "eventID": "3c52209a-59fd-4a3e-a6cf-5bd422f6e8f9",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "f82e4109-48c1-468a-83ae-b3aacdee2ca5"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:07Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5QVKTVZ4IK",
+                    "expiration": "Sep 12, 2019 7:43:07 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJIMEYCIQCSbOexROQpG2BeEJMgfuedKiQCkRkH2UKGEHQSBDcj0gIhAN20F8iIyeuzRCd3TpnWc6TmtHX2t2DmPXj9VfyMEqmTKvYCCOn//////////wEQABoMOTAzMDc3NjQ2MTc3Igy9ZtPmENwoHTd05/kqygKXgaOmuln7mTiaOb8fbCQZPIQsyeePleGVo7uk3aihuY9FwK4GEqA2XQtQrVSSmMv7CQmJzIX5aqznKGhmQbACv8DJCigAj3BljE3pBbJUYAO6xyP23n6Kti993IeLA4iRMkPmEpxcMSQmkQhAAiWUWp4DK719Aa38WZk3oXhsQV6SYT13QjDl1Ql0Ed1dRr2mStgsSaNE1Br1kmW38jUOR6Dw01/V1wy02tTKzo2ZYEkuIdFJbqSgj6/wEdNsUh6jP2jr4hMk1ideNWqfuribY6vlQiZeewCDT82O6AKgfinJL1O+FU58f1NOV8OyPmYhIakGU19JiApkx8xTqcxVmC/ugeRqIGdnkYg9XQbvuilCMHNwYU/ABaJkr1CVWP5qYEnhgjONT6IWj3a6iPO4QHdHmKIPhRtX243KzA6h+pGLG0vhJ1Xv4Ygwh+fn6wU6swF+oG8N86UrXwno3jIXuiXBlwFTdZlyP+1RnhIvsZ64DR6vo2Z61p6rcYcCYf9m2csLn2mDjL7b+ma0i6vc9PWd0XeQGYUpWcRRHWd7KnorC3++X4UkKmAt+Si5LwV3j0EqbySd7RsxpGVXOmlOjWnFWlN14wo68SLtUL98TesXPFZtEsz2jJz8OKe96EQFlPOR/szVp8LTHsrVJ9pgT9gptvOu7WRDojxYMHS1GiA0CRe+BQ\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "dd5a11b4-d52e-11e9-bb0f-6381ff5dc40c",
+            "eventID": "3052e277-1b91-40a2-98a7-cbee893f746c",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "95aab88f-4dbf-4c51-9457-83c19c25e58c"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs-tasks.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:54Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs-tasks.amazonaws.com",
+            "userAgent": "ecs-tasks.amazonaws.com",
+            "requestParameters": {
+                "roleSessionName": "55fafa75-c9cd-40c7-963d-ff438ced15a3",
+                "roleArn": "arn:aws:iam::903077646177:role/ecsTaskExecutionRole"
+            },
+            "responseElements": {
+                "credentials": {
+                    "sessionToken": "FQoGZXIvYXdzEEEaDGSj/WeH5UVPNbKhUyKcBJgBxSHXlulHIhEWauo+ybB8mYYyoGidlrmlVPgddKql8OUi3XnpEGFoeS92rf0z+AoH4Cvlb5wAmfzvi3JJ7dcKjjfsiG97c8UETOAWbKp4y8MONikSdlVwliKBfgdoPYeiOt3S87YcoiTs7Od/GYtuB+tEIIHC1CUhSjQxFC0YJltkz+Lq7HRM3692z8nC0hbpxXp8ZmLG+nOL4zUZqHmeCEmvt98aoHDIMhciHimGGqPv1s0WkF+eEKD/+IXi23StUQEM5kZoSYvch38ncCozxyI3en/SWm1l5wIrrCdGSJz+QxbZBf8NonDOlirQSQ0ssjzDbBlIeo4W7nGMC4/bamfkIZG7u6m0h/C5ZHQ5ZH51c1dGKbwO+PHoHV7OAik0pm0KvQ1YHHa92goEiRlgtcQLunmn94V1Xyd2GY7pwy8AnalCIfaQFVlYkJ6wv8cNOYKiNVCtccx1b7pN3buPJ6ukfhIAabJL7333E2vUh9LphdgAjD6MJx3Tk+r3jXHa4h7XKVYNwLgKIv/g1zv9NR2IY/zfbzcJJCo0MukKIw8g6QBbSTvq67nfuuFoXN2biuNSWAzp8JjdCP7TOqwaW0RTpzNy/6tactr/aHokoNtIlHh0Ez6fy41zKdhLDHWPDsUaPoK4syBDshQ5uQ9B2h2VpVaBF1N7L20PjwcOQ5xH6SgIIVIBVO9PyVrWpo5KfllrgdCuw46Peyi25+frBQ\u003d\u003d",
+                    "accessKeyId": "ASIA5EQ47J5Q5NAC3R7O",
+                    "expiration": "Sep 12, 2019 1:28:54 PM"
+                }
+            },
+            "requestID": "732606bc-2db7-471e-a78f-e82fe1ae1db8",
+            "eventID": "f8cda402-ddc1-41a7-a595-3da6a6268e05",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/ecsTaskExecutionRole",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "98cef7b3-0cd1-4ed7-bf10-5eded9448fa5"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:11Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5Q6ME7GIW6",
+                    "expiration": "Sep 12, 2019 7:43:11 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJIMEYCIQCpfflprYau5636EhjgJ+NMFaRWVjxgDlHPhJlJWnHvPwIhAMU7S9f6lzkPuFrJ7pIxAp9g/429f9sHkV71po6Kt9f8KvYCCOn//////////wEQABoMOTAzMDc3NjQ2MTc3IgzV0YVRMp6JmdVLgvoqygLJIkQv+kdjmrU6EWDkMiZljrXHVk+cA2Yppfwh57gDlTqSOD3tFGmUUtIXzc938ZOEaV98k5J5XNX/KLGkO3uef8y+bpndgy0zGTww/iORGT1nRbvzcananUbiESGhAyKyJPs1Aje+tGfqzhZ2D7E+amV7r5y8q+SaplwYN6WFAPxuoWGoNs8zxLWF/cozfi+gevV75WLgVfrUVUKifb1d2SzyQcTnmNaQcOCW0CkJ2lethnQc+nfn1HVNqkxhDgL6zXdUC1Rwp1DD6r+lwPl63TdYshEBIQR6eh6Ldwcz3xEaFcnZ7nwkCunWuShNQRFZHKlzyeoKgPHK5PQejpv8+IuWIvsWWQou+0WU95ve+88LYP0kl1oWXAhgLZRcpc2muzu4UWPatHdMrxWEMW6vb5Ej161cAIalp+gYp/uCpp6u/X6xPT642jswi+fn6wU6swHJAX4OHMtPvFuw4fWFQWYDJZ61vxlBDLm72P0pCioeE0jqNGmtwjxLhIfhBLTVeEFtHAfMVErce0U8rFJ21Um6ToIMHyEvmPrmJKjUkgSHJLOOqMTVpw6pFYMYzoYtGS1Embtq3bH98l+F/UMqjfcrRrZI/MqZtOHartwddNutITKg23/htl6SJDqhnlCUhD5zFCdgD7oW/Qv2f8VGIR74B4sBqP7p/6slemwe9RA+rDVE5w\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "dfff6845-d52e-11e9-a052-c98a6e5f52c3",
+            "eventID": "7dc85371-5725-460a-aa31-b0f6db0fde9c",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "044b866f-5022-48af-9837-7dfa9263db8c"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AWSService",
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:41Z",
+            "eventSource": "sts.amazonaws.com",
+            "eventName": "AssumeRole",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "roleArn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                "roleSessionName": "ecs-eni-provisioning",
+                "durationSeconds": 900
+            },
+            "responseElements": {
+                "credentials": {
+                    "accessKeyId": "ASIA5EQ47J5QXDIYQZWV",
+                    "expiration": "Sep 12, 2019 7:43:41 AM",
+                    "sessionToken": "AgoJb3JpZ2luX2VjEDAaCWV1LXdlc3QtMSJIMEYCIQCADMZ6OKHnlishe09mO5uZ9pVzI17na4oX9hUlz9gt3gIhAO1fPhqxJDXhYCOJznoiX1EuRfdUZnpa6NHt1ZpGm/fPKvYCCOn//////////wEQABoMOTAzMDc3NjQ2MTc3Igwrrsja29rrdX5s4tYqygIiZojN3ElJmeJDkM3Yi4E83r56JLwKDNPWBMFnnKRZ1O7PdlZuAd1YDAEghiQNNaPpmTMWTKDJCzgfcmcpqDh3qku46TuUFWEeMxIDyA0FwM9jOPrwmcRTvIdScII7AM9EsuWDtF6m68fEclsqzhPCUHag7SunquU1rQ16tS0nEn/m9PXBT4MJkLnw38KR58Qjon9Rjt74KX9C37JumW6NxAj/AQ7g+/cJjHYfhr6+zlerchHmUnWIBpTqX6yvvU4t4JTgu8NZmUz9dIX6a0uIAQX+FqWUnxweMb1TGzoF/h0/TBQOWChYLvoGUO6jAmJptg5nFBrg7VwiVsI/TzjFggG9haJ0rFHDEX1UEpxaEy8qk7xXqE7QDQ1jF2o68F1iUY5aqMjeEkV7FoJszBmYOEBPkUdOb6s9WXOWTygS4nHJYtV9byepFSIwqefn6wU6swH+k+XP439P53RvbAzTbWNsy+LEZLgyg4otn3Mx2RFbYbQN8ZK8tqsrx3Xa8euxtcMGmesgCnx9xAzyGkWaO9nfY21cLFgIoP6nzSzOgj9hQz2UN04d9Vtb7tZjVoFtSJu223GT3AWlQubi1YNdCMaqaOBzUkN/Gksg9VNZWlh/w8vUt/2IEai7tP9jiKPbLP3nYv/FjMsAR1ks+q8duhsvAPRH26C21AVCZeBEkpqizRr4NA\u003d\u003d"
+                },
+                "assumedRoleUser": {
+                    "assumedRoleId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                    "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning"
+                }
+            },
+            "requestID": "f21d02d8-d52e-11e9-ba45-3399aaad8bc3",
+            "eventID": "010e824e-79ea-4274-83e3-c6d4d89e9d32",
+            "resources": [
+                {
+                    "ARN": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                    "accountId": "903077646177",
+                    "type": "AWS::IAM::Role"
+                }
+            ],
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177",
+            "sharedEventID": "61197280-9332-4710-aefd-2781bedb9582"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QUCJAHTKLZ:i-06e91bf508fd3bf9f",
+                "arn": "arn:aws:sts::903077646177:assumed-role/ecsInstanceRole/i-06e91bf508fd3bf9f",
+                "accountId": "903077646177",
+                "accessKeyId": "ASIA5EQ47J5Q4J22ZQBC",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QUCJAHTKLZ",
+                        "arn": "arn:aws:iam::903077646177:role/ecsInstanceRole",
+                        "accountId": "903077646177",
+                        "userName": "ecsInstanceRole"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T05:02:04Z"
+                    }
+                }
+            },
+            "eventTime": "2019-09-12T07:28:57Z",
+            "eventSource": "ecs.amazonaws.com",
+            "eventName": "SubmitTaskStateChange",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "34.246.189.221",
+            "userAgent": "Amazon ECS Agent - v1.30.0 (02ff320c) (linux) (+http://aws.amazon.com/ecs/)",
+            "requestParameters": {
+                "cluster": "demo-ecs-classic",
+                "reason": "",
+                "status": "RUNNING",
+                "pullStartedAt": "Sep 12, 2019 7:28:55 AM",
+                "containers": [
+                    {
+                        "networkBindings": [],
+                        "status": "RUNNING",
+                        "runtimeId": "c790e63a29e9da1d1e650ad94f04299124fd1e89a7df890475bc5dbdf033dbf1",
+                        "containerName": "sample-app"
+                    }
+                ],
+                "task": "arn:aws:ecs:eu-west-1:903077646177:task/55fafa75-c9cd-40c7-963d-ff438ced15a3",
+                "pullStoppedAt": "Sep 12, 2019 7:28:56 AM"
+            },
+            "responseElements": {
+                "acknowledgment": "ack"
+            },
+            "requestID": "71549d99-ee50-4760-bf1f-3e28c1004d48",
+            "eventID": "8e7d1cd6-7451-485a-8551-ab9b84be9218",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning",
+                "accountId": "903077646177",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:28:41Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:42Z",
+            "eventSource": "ec2.amazonaws.com",
+            "eventName": "AttachNetworkInterface",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "networkInterfaceId": "eni-0f7ec6073e1f1f49a",
+                "instanceId": "i-06e91bf508fd3bf9f",
+                "deviceIndex": 1
+            },
+            "responseElements": {
+                "requestId": "02b65e83-0e71-4f50-a0b4-d765b0704cbc",
+                "attachmentId": "eni-attach-0e4b370dc66b0261f"
+            },
+            "requestID": "02b65e83-0e71-4f50-a0b4-d765b0704cbc",
+            "eventID": "6d811923-261a-4a55-8f64-fba333f58a8c",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning",
+                "accountId": "903077646177",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:28:41Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:42Z",
+            "eventSource": "ec2.amazonaws.com",
+            "eventName": "DescribeInstances",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "instancesSet": {
+                    "items": [
+                        {
+                            "instanceId": "i-06e91bf508fd3bf9f"
+                        }
+                    ]
+                },
+                "filterSet": {}
+            },
+            "responseElements": null,
+            "requestID": "e57e6021-7ac8-4a43-8cb3-73d04a1668cc",
+            "eventID": "c5f7fb0e-ca8e-4a8a-aded-e1248188e8ed",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning",
+                "accountId": "903077646177",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:28:17Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:17Z",
+            "eventSource": "ec2.amazonaws.com",
+            "eventName": "DeleteNetworkInterface",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "networkInterfaceId": "eni-032aef57924d9a409"
+            },
+            "responseElements": {
+                "requestId": "119477fc-fdca-46fe-b3ee-9f5a4ad9183b",
+                "_return": true
+            },
+            "requestID": "119477fc-fdca-46fe-b3ee-9f5a4ad9183b",
+            "eventID": "9ca178c3-8634-4b19-aa6c-1eabacc9e524",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        },
+        {
+            "eventVersion": "1.05",
+            "userIdentity": {
+                "type": "AssumedRole",
+                "principalId": "AROA5EQ47J5QTN7CWU4X2:ecs-eni-provisioning",
+                "arn": "arn:aws:sts::903077646177:assumed-role/AWSServiceRoleForECS/ecs-eni-provisioning",
+                "accountId": "903077646177",
+                "sessionContext": {
+                    "sessionIssuer": {
+                        "type": "Role",
+                        "principalId": "AROA5EQ47J5QTN7CWU4X2",
+                        "arn": "arn:aws:iam::903077646177:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                        "accountId": "903077646177",
+                        "userName": "AWSServiceRoleForECS"
+                    },
+                    "webIdFederationData": {},
+                    "attributes": {
+                        "mfaAuthenticated": "false",
+                        "creationDate": "2019-09-12T07:28:17Z"
+                    }
+                },
+                "invokedBy": "ecs.amazonaws.com"
+            },
+            "eventTime": "2019-09-12T07:28:17Z",
+            "eventSource": "ec2.amazonaws.com",
+            "eventName": "DescribeNetworkInterfaces",
+            "awsRegion": "eu-west-1",
+            "sourceIPAddress": "ecs.amazonaws.com",
+            "userAgent": "ecs.amazonaws.com",
+            "requestParameters": {
+                "networkInterfaceIdSet": {},
+                "filterSet": {
+                    "items": [
+                        {
+                            "name": "status",
+                            "valueSet": {
+                                "items": [
+                                    {
+                                        "value": "available"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": "subnet-id",
+                            "valueSet": {
+                                "items": [
+                                    {
+                                        "value": "subnet-07e8ea5dbbbf81ba7"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": "description",
+                            "valueSet": {
+                                "items": [
+                                    {
+                                        "value": "arn:aws:ecs:eu-west-1:903077646177:attachment/7cac0589-5501-4c01-bf55-d8517c8614ef"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "responseElements": null,
+            "requestID": "d5450a95-c135-4d49-a14e-dccd9000eae2",
+            "eventID": "35821501-ff3a-4b19-bc6c-f395e6f5bfc9",
+            "eventType": "AwsApiCall",
+            "recipientAccountId": "903077646177"
+        }
+    ]
+}
